@@ -12,7 +12,7 @@ export default function PokeCard() {
         <div>
           <h1> {poke.name} </h1>
           <img src={poke.sprites.back_default} alt="pic" />
-          <img 
+          <img src={poke.sprites.back_shiny} alt="pic" />
         </div>
       ))}
     </div>
